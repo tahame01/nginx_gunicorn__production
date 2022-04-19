@@ -1,0 +1,7 @@
+1. we need to place the django project here
+2. like, django_base -> project_settings -> settings.py
+3. so django_base will be placed here
+4.make sure Dockerfile will will have the currect floder name
+5. example COPY ./django_base /app
+6. make sure settings.py got updated STATIC_ROOT = '/static/' STATIC_URL = '/static/'
+7. That's it just say docker-compose up,, job done!!
